@@ -58,7 +58,7 @@ class Map extends Component {
             <div role="region" aria-label="map" className="map-container" style={{ marginLeft: '250px' }}>
                 <MapComponent
                     isMarkerShown={this.props.places.length > 0}
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2eiZsx2oT_y03EA5ksk4zLCFq0mifCVM&v=3.exp&libraries=geometry,drawing,places&callback=onMapLoaded"
+                    googleMapURL="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJt4P01q4DyIkRWOcjQqiWSAQ&key=AIzaSyCTdLTZyGyYT-ExwSHhd6tCh98YGSpdRr4"
                     loadingElement={<div style={{ height: `100%` }} />}
                     containerElement={<div style={{ height: `100%` }} />}
                     mapElement={<div style={{ height: `100%` }} />}
